@@ -260,12 +260,12 @@ iframe {
   display: block;
   max-width: 100%; }
 
-#open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+#open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
   background-position: center !important;
   background-size: cover !important;
   height: 350px;
   margin-top: 185px; }
-  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #contact-us-title-img h1 {
+  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     position: absolute;
     margin-top: 140px;
     left: 0;
@@ -304,6 +304,9 @@ h3 {
 
 #banquet-title-img {
   background: url("../images/banquet-wedding-event-center-title-img.jpg"); }
+
+#bowling-links-title-img {
+  background: url("../images/bowling-links-title-img.jpg"); }
 
 .age {
   text-decoration: underline; }
@@ -379,6 +382,10 @@ figcaption {
     color: red; }
   .phone-number a:hover {
     text-decoration: none; }
+
+.bowl-links .bowling-link {
+  width: 150px;
+  max-width: 100%; }
 
 /*-----------------------------------------*/
 /*--------PHOTOGALLERY--------------------*/
@@ -697,7 +704,7 @@ footer {
     color: white;
     transition: ease-out .2s; }
 
-  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
     margin-top: 135px; }
 
   #parallax {
@@ -866,11 +873,12 @@ footer {
     color: white;
     transition: ease-out .2s; }
 
-  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
     margin-top: 135px; }
-    #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #contact-us-title-img h1 {
-      font-size: 60px;
-      transition-duration: .3s; }
+
+  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
+    font-size: 60px;
+    transition-duration: .3s; }
 
   #tour {
     background: #38403d;
@@ -1068,7 +1076,7 @@ footer {
     color: white;
     transition: ease-out .2s; }
 
-  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
     margin-top: 105px; }
 
   #tour {
@@ -1107,7 +1115,7 @@ footer {
   .w3-content.w3-section {
     margin-top: 135px !important; }
 
-  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #contact-us-title-img h1 {
+  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 54px;
     transition-duration: .3s; }
 
@@ -1271,14 +1279,14 @@ footer {
     color: white;
     transition: ease-out .2s; }
 
-  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
     margin-top: 105px; }
+
+  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
+    font-size: 54px; }
 
   .w3-content.w3-section {
     margin-top: 105px !important; }
-
-  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #contact-us-title-img h1 {
-    font-size: 54px; }
 
   #tour {
     background: #38403d;
@@ -1480,7 +1488,7 @@ footer {
   #hours {
     display: none; }
 
-  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
     margin-top: 105px; }
 
   .w3-content.w3-section {
@@ -1520,7 +1528,7 @@ footer {
     #parallax #holiday-specials {
       margin-top: -30px !important; }
 
-  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #contact-us-title-img h1 {
+  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 54px;
     transition-duration: .3s; }
 
@@ -1693,15 +1701,15 @@ footer {
     color: white;
     transition: ease-out .2s; }
 
-  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #contact-us-title-img {
+  #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
     margin-top: 105px; }
+
+  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
+    font-size: 42px;
+    transition-duration: .3s; }
 
   .w3-content.w3-section {
     margin-top: 105px !important; }
-
-  #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #contact-us-title-img h1 {
-    font-size: 42px;
-    transition-duration: .3s; }
 
   #tour {
     background: #38403d;
