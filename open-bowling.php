@@ -35,6 +35,8 @@
     
 <div class="secondary-content">
     
+<div id="open-bowl"></div>
+    
     <h1>OPEN BOWLING</h1>
     
     <div class="row bowling-rates">
@@ -56,7 +58,7 @@
         
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     
-            <div class="open-bowling">
+            <div class="open-bowling box">
 
                 <h4>Weekends</h4>
                 
@@ -82,6 +84,8 @@
 
     
 <div class="secondary-content bg-color">
+
+<div id="rockn-bowl"></div>
     
     <h1>ROCK 'N' BOWL</h1>
     
@@ -101,6 +105,8 @@
 </div>
     
 <div class="secondary-content">
+    
+<div id="holiday"></div>
     
     <h1>HOLIDAY BOWLING</h1>
     
@@ -122,7 +128,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                    <div class="holiday-bowling">
+                    <div class="holiday-bowling box">
 
                         <h4>Rock N' Bowl for Kids Special</h4>
                         
@@ -136,7 +142,7 @@
             
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                    <div class="holiday-bowling">
+                    <div class="holiday-bowling box">
 
                         <h4>Easter Break Bowling Special</h4>
                         
@@ -166,6 +172,8 @@
     
 <div class="secondary-content bg-color">
     
+<div id="birthday"></div>
+    
     <h1>BIRTHDAY PARTIES</h1>
     
         <div class="row bowling-rates">
@@ -192,7 +200,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                    <div class="birthday-party">
+                    <div class="birthday-party box">
 
                         <h4>Birthday Party Package 2</h4>
                         
@@ -212,7 +220,7 @@
             
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                <div class="birthday-party">
+                <div class="birthday-party box">
                         
                     <h4>Substitutions &amp; Incentives</h4>
 

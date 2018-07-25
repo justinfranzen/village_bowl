@@ -201,6 +201,11 @@ button {
     }
 }
 
+#open-bowl, #rockn-bowl, #holiday, #birthday {
+    margin-top: -200px;
+    padding-top: 200px;
+}
+
 #open-bowling {
     background: url('../images/open-bowling.jpg');
 }
@@ -920,6 +925,10 @@ footer {
         margin-top: 140px;
     }
     
+    .box {
+        margin-top: 40px !important;
+    }
+    
 }
 
 @media only screen and (min-width: 668px) and (max-width: 767px) {
@@ -1159,6 +1168,10 @@ footer {
     #intro {
         margin-top: 140px;
     }
+    
+    .box {
+        margin-top: 40px !important;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
@@ -1361,11 +1374,11 @@ footer {
         cursor: pointer;
     }
     
-    &:not(:hover) {
-        transition-duration: .3s;
+        &:not(:hover) {
+            transition-duration: .3s;
+        }
     }
 }
-    }
     
     #parallax {
         background-attachment: inherit !important;
@@ -1396,6 +1409,10 @@ footer {
     
     #intro {
         margin-top: 140px;
+    }
+    
+    .box {
+        margin-top: 40px !important;
     }
     
 }
@@ -1626,6 +1643,10 @@ footer {
         #holiday-specials {
             margin-top: -30px !important;
         }
+    }
+    
+    .box {
+        margin-top: 40px !important;
     }
     
     #hours {
@@ -1881,6 +1902,10 @@ footer {
         h1 {
             font-size: 44px;
             transition-duration: .3s;
+        }
+        
+        .box {
+            margin-top: 40px !important;
         }
     }
     
@@ -2145,6 +2170,10 @@ footer {
         #holiday-specials {
             margin-top: -30px !important;
         }
+    }
+    
+    .box {
+        margin-top: 40px !important;
     }
     
     footer {

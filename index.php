@@ -103,7 +103,7 @@ function carousel() {
     
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-                <a href="#" class="blurb-img"><div id="open-bowling">
+                <a href="open-bowling.php#open-bowl" class="blurb-img"><div id="open-bowling">
 
                     <h3 class="blurb-title">OPEN BOWLING</h3>
 
@@ -113,7 +113,7 @@ function carousel() {
         
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             
-                 <a href="#" class="blurb-img"><div id="rockn-bowling">
+                 <a href="open-bowling.php#rockn-bowl" class="blurb-img"><div id="rockn-bowling">
 
                     <h3 class="blurb-title">ROCK 'N' BOWLING</h3>
 
@@ -127,7 +127,7 @@ function carousel() {
     
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-                 <a href="#" class="blurb-img"><div id="holiday-specials">
+                 <a href="open-bowling.php#holiday" class="blurb-img"><div id="holiday-specials">
 
                     <h3 class="blurb-title">HOLIDAY SPECIALS</h3>
 
@@ -137,7 +137,7 @@ function carousel() {
             
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             
-                 <a href="#" class="blurb-img"><div id="birthday-parties">
+                 <a href="open-bowling.php#birthday" class="blurb-img"><div id="birthday-parties">
 
                     <h3 class="blurb-title">BIRTHDAY PARTIES</h3>
 
