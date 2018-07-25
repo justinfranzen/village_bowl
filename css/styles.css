@@ -320,7 +320,8 @@ figcaption {
   text-decoration: none; }
 
 #rocknbowl {
-  margin-top: 50px; }
+  margin-top: 50px;
+  max-width: 100%; }
 
 .bowling-rates {
   margin-bottom: 80px;
