@@ -279,6 +279,7 @@ button {
         margin-bottom: 40px;
         margin-top: 80px;
         font-family: 'Roboto', sans-serif;
+        transition-duration: .3s;
     }
     
     p {
@@ -1848,11 +1849,11 @@ footer {
         cursor: pointer;
     }
     
-    &:not(:hover) {
-        transition-duration: .3s;
+        &:not(:hover) {
+            transition-duration: .3s;
+        }
     }
 }
-    }
     
     #parallax {
         background-attachment: inherit !important;
@@ -1872,6 +1873,14 @@ footer {
     #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
         font-size: 54px;
         transition-duration: .3s;
+    }
+    
+    .secondary-content {
+        
+        h1 {
+            font-size: 44px;
+            transition-duration: .3s;
+        }
     }
     
     footer {
@@ -2081,6 +2090,14 @@ footer {
 .w3-content.w3-section {
     margin-top: 105px !important;
 }
+    
+    .secondary-content {
+        
+        h1 {
+            font-size: 40px;
+            transition-duration: .3s;
+        }
+    }
     
 #tour {
     background: #38403d;

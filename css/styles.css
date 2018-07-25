@@ -209,7 +209,8 @@ button {
     font-size: 50px;
     margin-bottom: 40px;
     margin-top: 80px;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;
+    transition-duration: .3s; }
   .secondary-content p {
     line-height: 1.7; }
   .secondary-content .league-information {
@@ -1532,6 +1533,10 @@ footer {
     font-size: 54px;
     transition-duration: .3s; }
 
+  .secondary-content h1 {
+    font-size: 44px;
+    transition-duration: .3s; }
+
   footer {
     height: 315px; }
     footer #location-info {
@@ -1710,6 +1715,10 @@ footer {
 
   .w3-content.w3-section {
     margin-top: 105px !important; }
+
+  .secondary-content h1 {
+    font-size: 40px;
+    transition-duration: .3s; }
 
   #tour {
     background: #38403d;
