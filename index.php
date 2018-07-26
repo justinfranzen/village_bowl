@@ -79,12 +79,17 @@ function carousel() {
 
 <div id="tour">
 
-    <button><a href="https://www.google.com/maps/@43.1759193,-88.1376993,3a,75y,24h,90t/data=!3m8!1e1!3m6!1sf2DLrsu5VoQAAAQvvIh5PQ!2e0!3e2!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3Df2DLrsu5VoQAAAQvvIh5PQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D24.270773%26pitch%3D0!7i13312!8i6656!6m1!1e1?shorturl=1" target="_blank">CLICK HERE TO VIEW TOUR</a></button>
-
-        
-<a href="" id="tour-btn">CLICK HERE TO VIEW TOUR</a>
+<a href="https://www.google.com/maps/@43.1759193,-88.1376993,3a,75y,24h,90t/data=!3m8!1e1!3m6!1sf2DLrsu5VoQAAAQvvIh5PQ!2e0!3e2!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3Df2DLrsu5VoQAAAQvvIh5PQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D24.270773%26pitch%3D0!7i13312!8i6656!6m1!1e1?shorturl=1" id="tour-btn" target="_blank">CLICK HERE TO VIEW TOUR</a>
 
 
+</div>
+    
+<div id="fall-bowling-league">
+    
+    <a href="" class="fall-league-btn">View League Standings</a>
+    
+    <a href="" class="fall-league-btn">Click Here to Sign Up</a>
+    
 </div>
     
 <div id="intro">
@@ -160,13 +165,6 @@ function carousel() {
     <p>Village Bowl has three banquet halls to choose from with seating accommodations for up to 350. We have 3 rooms: The Heritage Hall, Bugline Room and the Mardi Gras room. Our rooms can been used for any occasion from: bridal and baby showers, retirement parties, birthdays and anniversaries, to rehearsal dinners, business meetings and luncheons. We specialize in Weddings and Quinceanera’s and are happy to speak with you at any time. One of the most pleasant surprises you will experience from having a banquet at the Village Bowl will come from the great taste, wide variety of choices, and high quality standards of the food prepared by our certified executive chef and his culinary team.</p>
     
     <p>Other amenities include: the Billiard room with 2 tables, the arcade with a dozen games for the young at heart, and Rich Mueller’s Village Bowl Pro Shop with everything from new equipment like: bags, balls, shoes and accessories...to plugging, drilling and resurfacing for a custom fit!</p>
-    
-</div>
-
-    
-<div id="coupon-section">
-    
-    <img src="images/kids-bowl-free.png" alt="Kids Bowl Free Coupon" id="coupon" />
     
 </div>
     

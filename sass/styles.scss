@@ -223,7 +223,33 @@ button {
 }
 
 #coupon-section {
+    display: none;
+}
+
+#fall-bowling-league {
     background: darkcyan;
+    height: 150px;
+    text-align: center;
+    padding-top: 62px;
+
+    a {
+        background: #FDCE13;
+        color: black;
+        padding: 15px 20px;
+        border-radius: 5px;
+        margin: 0 30px;
+        font-size: 18px;
+    
+        &:hover {
+            text-decoration: none;
+            box-shadow: 0px 5px 20px 0px black;
+            transition-duration: .4s;
+        }
+        
+        &:not(:hover) {
+            transition-duration: .4s;
+        }
+    }
     
         #coupon {
             display: block;
@@ -1129,19 +1155,19 @@ footer {
         margin: 0 auto;
         color: black;
     
-     &:hover {
-        text-decoration: none;
-        background: #FDCE13;
-        color: black;
-        transition-duration: .3s;
-        cursor: pointer;
+         &:hover {
+            text-decoration: none;
+            background: #FDCE13;
+            color: black;
+            transition-duration: .4s;
+            cursor: pointer;
+        }
     
             &:not(:hover) {
-                transition-duration: .3s;
+                transition-duration: .4s;
             }
         }
  }
-    }
     
     #parallax {
         background-attachment: inherit !important;

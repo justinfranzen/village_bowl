@@ -117,7 +117,7 @@ header {
     color: black;
     transition-duration: .3s;
     cursor: pointer; }
-    #tour-btn:hover:not(:hover) {
+    #tour-btn:not(:hover) {
       transition-duration: .3s; }
 
 button {
@@ -167,8 +167,27 @@ button {
   background: url("../images/birthday-parties.jpg"); }
 
 #coupon-section {
-  background: darkcyan; }
-  #coupon-section #coupon {
+  display: none; }
+
+#fall-bowling-league {
+  background: darkcyan;
+  height: 150px;
+  text-align: center;
+  padding-top: 62px; }
+  #fall-bowling-league a {
+    background: #FDCE13;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 0 30px;
+    font-size: 18px; }
+    #fall-bowling-league a:hover {
+      text-decoration: none;
+      box-shadow: 0px 5px 20px 0px black;
+      transition-duration: .4s; }
+    #fall-bowling-league a:not(:hover) {
+      transition-duration: .4s; }
+  #fall-bowling-league #coupon {
     display: block;
     margin: 0 auto;
     padding: 70px 5%;
@@ -908,10 +927,10 @@ footer {
         text-decoration: none;
         background: #FDCE13;
         color: black;
-        transition-duration: .3s;
+        transition-duration: .4s;
         cursor: pointer; }
-        #tour #tour-btn:hover:not(:hover) {
-          transition-duration: .3s; }
+      #tour #tour-btn:not(:hover) {
+        transition-duration: .4s; }
 
   #parallax {
     background-attachment: inherit !important;
