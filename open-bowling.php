@@ -156,17 +156,21 @@
 
         </div>
     
-    <h4>Holiday Price of $10 includes:</h4>
+    <div id="holiday-price">
     
-    <p>2 Games (bumpers) • Shoes • 1 Hot Dog • 1 Soda</p>
-    
-    <h4>$14.25 value</h4>
-    
-    <p><strong>(No other coupons accepted during promotion)</strong></p>
-    
-    <br>
-    
-    <p><strong>During holidays such as Christmas and Easter, Village Bowl offers special pricing for students, teachers and parents.</strong></p>
+        <h4>Holiday Price of $10 includes:</h4>
+
+        <p>2 Games (bumpers) • Shoes • 1 Hot Dog • 1 Soda</p>
+
+        <h4>$14.25 value</h4>
+
+        <p><strong>(No other coupons accepted during promotion)</strong></p>
+        
+    </div>
+
+        <br>
+
+        <p><strong>During holidays such as Christmas and Easter, Village Bowl offers special pricing for students, teachers and parents.</strong></p>
     
 </div>
     

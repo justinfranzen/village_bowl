@@ -86,9 +86,23 @@ function carousel() {
     
 <div id="fall-bowling-league">
     
-    <a href="" class="fall-league-btn">View League Standings</a>
+    <h2 id="fall-leagues">Fall Bowling Leagues Now Forming</h2>
     
-    <a href="" class="fall-league-btn">Click Here to Sign Up</a>
+    <div class="row">
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12">
+
+             <a href="https://www.villagebowl.com/league-information/2018-19-league-offerings.pdf" class="fall-league-btn" target="_blank">View League Standings</a>
+            
+        </div>
+        
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12 sign-up">
+
+            <a href="" class="fall-league-btn">Click Here to Sign Up</a>
+            
+        </div>
+            
+    </div>
     
 </div>
     

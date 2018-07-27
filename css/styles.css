@@ -117,7 +117,7 @@ header {
     color: black;
     transition-duration: .3s;
     cursor: pointer; }
-    #tour-btn:not(:hover) {
+    #tour-btn:hover:not(:hover) {
       transition-duration: .3s; }
 
 button {
@@ -170,10 +170,13 @@ button {
   display: none; }
 
 #fall-bowling-league {
-  background: darkcyan;
-  height: 150px;
+  background: white;
+  height: 200px;
   text-align: center;
-  padding-top: 62px; }
+  padding-top: 1px; }
+  #fall-bowling-league #fall-leagues {
+    margin-top: 40px;
+    margin-bottom: 40px; }
   #fall-bowling-league a {
     background: #FDCE13;
     color: black;
@@ -225,6 +228,14 @@ button {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   text-align: center; }
+  .secondary-content #holiday-price {
+    background: #FDCE13;
+    width: 600px;
+    padding: 30px 5%;
+    margin: 0px auto 40px auto;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 3px lightslategray; }
   .secondary-content .space {
     margin-top: 60px; }
   .secondary-content h1 {
@@ -365,6 +376,9 @@ figcaption {
 
 .birthday-party {
   min-height: 375px !important; }
+
+.birthday {
+  margin-top: 30px; }
 
 .link {
   display: block;
@@ -932,6 +946,11 @@ footer {
       #tour #tour-btn:not(:hover) {
         transition-duration: .4s; }
 
+  #fall-bowling-league {
+    height: 275px; }
+    #fall-bowling-league .sign-up {
+      margin-top: 50px; }
+
   #parallax {
     background-attachment: inherit !important;
     height: auto !important;
@@ -1133,6 +1152,11 @@ footer {
         cursor: pointer; }
       #tour #tour-btn:not(:hover) {
         transition-duration: .3s; }
+
+  #fall-bowling-league {
+    height: 275px; }
+    #fall-bowling-league .sign-up {
+      margin-top: 50px; }
 
   #parallax {
     background-attachment: inherit !important;
@@ -1346,6 +1370,11 @@ footer {
       #tour #tour-btn:not(:hover) {
         transition-duration: .3s; }
 
+  #fall-bowling-league {
+    height: 275px; }
+    #fall-bowling-league .sign-up {
+      margin-top: 50px; }
+
   #parallax {
     background-attachment: inherit !important;
     height: auto !important;
@@ -1554,6 +1583,15 @@ footer {
         cursor: pointer; }
       #tour #tour-btn:not(:hover) {
         transition-duration: .3s; }
+
+  #fall-bowling-league {
+    height: 275px; }
+    #fall-bowling-league #fall-leagues {
+      font-size: 22px; }
+    #fall-bowling-league a {
+      font-size: 16px; }
+    #fall-bowling-league .sign-up {
+      margin-top: 50px; }
 
   #parallax {
     background-attachment: inherit !important;
@@ -1781,6 +1819,15 @@ footer {
         cursor: pointer; }
       #tour #tour-btn:not(:hover) {
         transition-duration: .3s; }
+
+  #fall-bowling-league {
+    height: 290px; }
+    #fall-bowling-league #fall-leagues {
+      font-size: 22px; }
+    #fall-bowling-league a {
+      font-size: 16px; }
+    #fall-bowling-league .sign-up {
+      margin-top: 50px; }
 
   #parallax {
     background-attachment: inherit !important;
