@@ -375,30 +375,21 @@ button {
     .league-information {
         margin-top: 50px;
     
-        .bowling-ball {
-            width: 150px;
+        .form {
+            width: 300px;
+            max-width: 100%;
+            border: 1px solid #FDCE13;
         }
-
-        .bowling-ball.one:hover {
-            transform: rotate(360deg);
-            transition-duration: .5s;
-        }
-
-        .bowling-ball.one:not(:hover) {
-            transform: rotate(-360deg);
-            transition-duration: .5s;
-        }
-
-        .bowling-ball.two:hover {
-            transform: rotate(-360deg);
-            transition-duration: .5s;
-        }
-
-        .bowling-ball.two:not(:hover) {
-            transform: rotate(360deg);
-            transition-duration: .5s;
+        
+        .link {
+            color: black;
+            
+            &:hover {
+                color: red;
+            }
         }
     }
+    
     
     #company-outing {
         display: block;
@@ -511,6 +502,15 @@ h3 {
 figcaption {
     width: 80%;
     margin: 15px auto;
+    
+    a {
+        color: black;
+    }
+    
+    & a:hover {
+        color: red;
+        text-decoration: none;
+    }
 }
 
 .figcaption2 a:hover {
@@ -626,6 +626,7 @@ figcaption {
     .bowling-link {
         width: 150px;
         max-width: 100%;
+        background: black;
     }
 }
 
@@ -1245,11 +1246,6 @@ footer {
         letter-spacing: 2px;
     }
 
-        .icon {
-            height:30px;
-            width: 30px;
-        }
-
     /* Change color of dropdown links on hover */
     .dropdown-content a:hover, .dropdown-content li a:focus {
         color: rgba(162, 192, 217, 1);
@@ -1310,6 +1306,10 @@ footer {
             }
         }
  }
+    
+.form-space {
+    margin-top: 50px;
+}
     
 #fall-bowling-league {
     height: 215px;
@@ -1561,6 +1561,10 @@ footer {
             transition-duration: .3s;
         }
     }
+}
+
+.form-space {
+    margin-top: 50px;
 }
     
 #fall-bowling-league {
@@ -2108,6 +2112,10 @@ footer {
     }
 }
     
+.form-space {
+    margin-top: 50px;
+}
+    
 #fall-bowling-league {
     height: 285px;
     
@@ -2455,9 +2463,13 @@ footer {
 
 }
     
+.form-space {
+    margin-top: 50px;
+}
+    
 #myForm {
     padding: 70px 5%;
-    }
+}
     
     #parallax {
         background-attachment: inherit !important;

@@ -22,7 +22,7 @@
     
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         
-            <a href="https://www.villagebowl.com/scotch-doubles-information/scotch-doubles-entry-form.pdf" target="_blank"><img src="images/bowling-ball.png" alt="Bowling Ball" class="bowling-ball one" /></a>
+            <a href="https://www.villagebowl.com/scotch-doubles-information/scotch-doubles-entry-form.pdf" target="_blank"><img src="images/spring-scotch-doubles-entry-form.png" alt="Spring Scotch Doubles Entry Form" class="form" /></a>
             
             <a href="https://www.villagebowl.com/scotch-doubles-information/scotch-doubles-entry-form.pdf" target="_blank" class="link"><p>Spring Scotch Doubles Entry Blank Form</p></a>
         
@@ -30,7 +30,7 @@
         
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         
-            <a href="https://www.villagebowl.com/scotch-doubles-information/2018-spring-scotch-doubles-flyer.jpg" target="_blank"><img src="images/bowling-ball.png" alt="Bowling Ball" class="bowling-ball two" /></a>
+            <a href="https://www.villagebowl.com/scotch-doubles-information/2018-spring-scotch-doubles-flyer.jpg" target="_blank"><img src="images/2018-spring-scotch-doubles-flyer.png" alt="2018 Sring Scotch Doubles Flyer" class="form form-space" /></a>
             
             <a href="https://www.villagebowl.com/scotch-doubles-information/2018-spring-scotch-doubles-flyer.jpg" target="_blank" class="link"><p>Spring Scotch Doubles</p></a>
         
@@ -38,7 +38,7 @@
         
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         
-            <a href="https://www.villagebowl.com/scotch-doubles-information/2018-scotch-doubles-prize-winners.pdf" target="_blank"><img src="images/bowling-ball.png" alt="Bowling Ball" class="bowling-ball one" /></a>
+            <a href="https://www.villagebowl.com/scotch-doubles-information/2018-scotch-doubles-prize-winners.pdf" target="_blank"><img src="images/spring-scotch-doubles-prize-winners.png" alt="Spring Scotch Doubles Prize Winners" class="form form-space" /></a>
             
             <a href="https://www.villagebowl.com/scotch-doubles-information/2018-scotch-doubles-prize-winners.pdf" target="_blank" class="link"><p>2018 Scotch Doubles Prize Winners</p></a>
         

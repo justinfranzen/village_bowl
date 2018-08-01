@@ -73,7 +73,7 @@
                     <li><a href="league-information.php">LEAGUE INFORMATION</a></li>
                     <li><a href="tournaments.php">TOURNAMENTS</a></li>
                     <li><a href="company-outings.php">COMPANY OUTINGS</a></li>
-                    <li><a href="bowling-links">BOWLING LINKS</a></li>
+                    <li><a href="bowling-links.php">BOWLING LINKS</a></li>
                 </ul>
             
         </div>

@@ -281,20 +281,14 @@ button {
     line-height: 1.7; }
   .secondary-content .league-information {
     margin-top: 50px; }
-    .secondary-content .league-information .bowling-ball {
-      width: 150px; }
-    .secondary-content .league-information .bowling-ball.one:hover {
-      transform: rotate(360deg);
-      transition-duration: .5s; }
-    .secondary-content .league-information .bowling-ball.one:not(:hover) {
-      transform: rotate(-360deg);
-      transition-duration: .5s; }
-    .secondary-content .league-information .bowling-ball.two:hover {
-      transform: rotate(-360deg);
-      transition-duration: .5s; }
-    .secondary-content .league-information .bowling-ball.two:not(:hover) {
-      transform: rotate(360deg);
-      transition-duration: .5s; }
+    .secondary-content .league-information .form {
+      width: 300px;
+      max-width: 100%;
+      border: 1px solid #FDCE13; }
+    .secondary-content .league-information .link {
+      color: black; }
+      .secondary-content .league-information .link:hover {
+        color: red; }
   .secondary-content #company-outing {
     display: block;
     width: 300px;
@@ -380,6 +374,11 @@ h3 {
 figcaption {
   width: 80%;
   margin: 15px auto; }
+  figcaption a {
+    color: black; }
+  figcaption a:hover {
+    color: red;
+    text-decoration: none; }
 
 .figcaption2 a:hover {
   text-decoration: none; }
@@ -460,7 +459,8 @@ figcaption {
 
 .bowl-links .bowling-link {
   width: 150px;
-  max-width: 100%; }
+  max-width: 100%;
+  background: black; }
 
 #myForm {
   text-align: left;
@@ -989,10 +989,6 @@ footer {
     font-size: 20px;
     letter-spacing: 2px; }
 
-  .icon {
-    height: 30px;
-    width: 30px; }
-
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover, .dropdown-content li a:focus {
     color: #a2c0d9;
@@ -1038,6 +1034,9 @@ footer {
         cursor: pointer; }
       #tour #tour-btn:not(:hover) {
         transition-duration: .4s; }
+
+  .form-space {
+    margin-top: 50px; }
 
   #fall-bowling-league {
     height: 215px; }
@@ -1252,6 +1251,9 @@ footer {
         cursor: pointer; }
       #tour #tour-btn:not(:hover) {
         transition-duration: .3s; }
+
+  .form-space {
+    margin-top: 50px; }
 
   #fall-bowling-league {
     height: 300px; }
@@ -1710,6 +1712,9 @@ footer {
       #tour #tour-btn:not(:hover) {
         transition-duration: .3s; }
 
+  .form-space {
+    margin-top: 50px; }
+
   #fall-bowling-league {
     height: 285px; }
     #fall-bowling-league #league-standing, #fall-bowling-league #sign-up {
@@ -1980,6 +1985,9 @@ footer {
       font-size: 22px; }
     #fall-bowling-league a {
       font-size: 16px; }
+
+  .form-space {
+    margin-top: 50px; }
 
   #myForm {
     padding: 70px 5%; }
