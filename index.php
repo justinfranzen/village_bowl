@@ -4,6 +4,12 @@
     include 'includes/header.php';
 ?>
 
+<div id="main-img">
+    
+    <h1 id="main-img-slogan">The Place for <br> Family Fun Since 1961</h1>
+
+</div>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
@@ -13,7 +19,7 @@
 <style>
 
     #parallax {
-        background: url('images/bowling-lanes.jpg');
+        background: url('images/bowling-lanes-new.jpg');
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
@@ -87,22 +93,10 @@ function carousel() {
 <div id="fall-bowling-league">
     
     <h2 id="fall-leagues">Fall Bowling Leagues Now Forming</h2>
-    
-    <div class="row">
-    
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12">
 
-             <a href="https://www.villagebowl.com/league-information/2018-19-league-offerings.pdf" class="fall-league-btn" target="_blank">View League Standings</a>
-            
-        </div>
-        
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12 sign-up">
+        <a href="https://www.villagebowl.com/league-information/2018-19-league-offerings.pdf" class="fall-league-btn" id="league-standing" target="_blank">View League Standings</a>
 
-            <a href="" class="fall-league-btn">Click Here to Sign Up</a>
-            
-        </div>
-            
-    </div>
+        <a href="" class="fall-league-btn" id="sign-up">Click Here to Sign Up</a>
     
 </div>
     
@@ -174,7 +168,7 @@ function carousel() {
     
     <p>Village Bowl is Milwaukee Metro’s most up to date Family Entertainment Center, featuring 26 lanes with the latest software for automatic scoring with "your lane your-way graphics" and automatic bumpers for the little ones.</p>
     
-    <p>The Bugline Sports Bar & Grill has 9 - 42” LCD’s and 2 big screens for your favorite sporting events. We have a full menu and feature our very own fresh made appetizers, burgers, wraps, salads, homemade pizza and soups. Yes, we also serve the Wisconsin traditional hand battered cod fish fry all under the direction of our Certified Executive Chef.</p>
+    <p>The Bugline Sports Bar &amp; Grill has 9 - 42” LCD’s and 2 big screens for your favorite sporting events. We have a full menu and feature our very own fresh made appetizers, burgers, wraps, salads, homemade pizza and soups. Yes, we also serve the Wisconsin traditional hand battered cod fish fry all under the direction of our Certified Executive Chef.</p>
     
     <p>Village Bowl has three banquet halls to choose from with seating accommodations for up to 350. We have 3 rooms: The Heritage Hall, Bugline Room and the Mardi Gras room. Our rooms can been used for any occasion from: bridal and baby showers, retirement parties, birthdays and anniversaries, to rehearsal dinners, business meetings and luncheons. We specialize in Weddings and Quinceanera’s and are happy to speak with you at any time. One of the most pleasant surprises you will experience from having a banquet at the Village Bowl will come from the great taste, wide variety of choices, and high quality standards of the food prepared by our certified executive chef and his culinary team.</p>
     

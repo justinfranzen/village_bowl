@@ -24,11 +24,14 @@
     
 <!-----GOOGLE FONTS---->
  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
     
 <!-----FONT AWESOME ICONS--------->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<script src="script.js"></script>
     
 <script>
     

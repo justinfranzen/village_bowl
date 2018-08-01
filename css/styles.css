@@ -10,38 +10,59 @@ html, body {
 #hours {
   background: #38403d;
   color: white;
-  height: 50px;
+  height: 45px;
   text-align: center;
-  padding-top: 13px;
-  font-size: 18px;
+  padding-top: 12px;
+  font-size: 16px;
   position: fixed;
   width: 100%;
   z-index: 50;
   font-family: 'Roboto', sans-serif; }
 
 header {
-  background: lightgray;
+  background: transparent;
   position: fixed;
   z-index: 50;
   width: 100%;
-  margin-top: 50px;
-  border-bottom: 1.5px solid lightslategray; }
+  margin-top: 45px; }
   header #nav {
     list-style-type: none;
     display: inline-flex;
     float: right;
     margin-right: 2%;
-    margin-top: 45px; }
+    margin-top: 40px; }
     header #nav li {
       padding: 15px 10px; }
       header #nav li a {
-        color: black;
+        color: white;
         padding: 17px 15px;
         font-family: 'Roboto', sans-serif;
         font-size: 16px; }
         header #nav li a:hover {
           text-decoration: none;
           border-bottom: 2px solid red; }
+
+.header-bg {
+  transition-duration: .3s; }
+
+#main-img {
+  background: url("../images/main-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: -18px; }
+  #main-img #main-img-slogan {
+    position: absolute;
+    color: white;
+    margin-top: 300px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    transition-duration: .3s; }
 
 .submenu-content {
   display: none;
@@ -55,6 +76,7 @@ header {
     padding: 0px !important;
     height: 40px; }
     .submenu-content li a {
+      color: black !important;
       padding: 10px 25px 8px 15px !important;
       display: inherit; }
       .submenu-content li a:hover {
@@ -63,7 +85,8 @@ header {
         color: white !important; }
 
 .w3-content.w3-section {
-  margin-top: 185px !important; }
+  margin-top: 18px !important;
+  border: 3px solid #FDCE13; }
 
 #bowling-dropdown:hover {
   cursor: pointer; }
@@ -71,10 +94,11 @@ header {
     display: block; }
 
 #logo {
-  width: 250px;
+  width: 220px;
   margin-left: 3%;
   max-width: 100%;
-  padding: 15px 0; }
+  padding: 15px 0;
+  transition-duration: .3s; }
 
 #logos {
   margin: 10px auto 30px auto; }
@@ -171,12 +195,20 @@ button {
 
 #fall-bowling-league {
   background: white;
-  height: 200px;
+  height: 215px;
   text-align: center;
-  padding-top: 1px; }
+  padding-top: 1px;
+  width: 700px;
+  margin: 0 auto;
+  max-width: 100%; }
+  #fall-bowling-league #league-standing {
+    float: left; }
+  #fall-bowling-league #sign-up {
+    float: right; }
   #fall-bowling-league #fall-leagues {
     margin-top: 40px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    transition-duration: .3s; }
   #fall-bowling-league a {
     background: #FDCE13;
     color: black;
@@ -266,7 +298,7 @@ button {
   .secondary-content #company-outing {
     display: block;
     width: 300px;
-    background: #00CC00;
+    background: red;
     border-radius: 5px;
     margin: 0 auto;
     height: 45px;
@@ -298,18 +330,17 @@ iframe {
 #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
   background-position: center !important;
   background-size: cover !important;
-  height: 350px;
-  margin-top: 185px; }
+  height: 450px;
+  margin-top: 0; }
   #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     position: absolute;
-    margin-top: 140px;
+    margin-top: 250px;
     left: 0;
     right: 0;
     text-align: center;
     color: white;
     font-size: 70px;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 1px 3px 5px black;
     transition-duration: .3s; }
 
 .blurb-img:hover {
@@ -320,25 +351,25 @@ h3 {
   margin-bottom: 40px !important; }
 
 #open-bowling-title-img {
-  background: url("../images/open-bowling-title-img.jpg"); }
+  background: url("../images/open-bowling-title-img-new.jpg"); }
 
 #league-information-title-img {
-  background: url("../images/league-information-title-img.jpg"); }
+  background: url("../images/league-information-title-img-new.jpg"); }
 
 #tournaments-title-img {
-  background: url("../images/tournaments-title-img.jpg"); }
+  background: url("../images/tournaments-title-img-new.jpg"); }
 
 #company-outing-title-img {
-  background: url("../images/company-outing-title-img.jpg"); }
+  background: url("../images/company-outing-title-img-new.jpg"); }
 
 #contact-us-title-img {
-  background: url("../images/contact-us-title-img.jpg"); }
+  background: url("../images/contact-us-title-img-new.jpg"); }
 
 #sports-bar-title-img {
-  background: url("../images/bugline-sports-bar-and-grill.jpg"); }
+  background: url("../images/sports-bar-title-img.jpg"); }
 
 #banquet-title-img {
-  background: url("../images/banquet-wedding-event-center-title-img.jpg"); }
+  background: url("../images/banquet-halls.jpg"); }
 
 #bowling-links-title-img {
   background: url("../images/bowling-links-title-img.jpg"); }
@@ -411,6 +442,11 @@ figcaption {
 
 #events {
   list-style-type: none; }
+  #events li a {
+    color: black; }
+  #events li a:hover {
+    color: red;
+    text-decoration: none; }
 
 .fa.fa-phone, .fa.fa-envelope {
   margin-right: 5px; }
@@ -425,6 +461,56 @@ figcaption {
 .bowl-links .bowling-link {
   width: 150px;
   max-width: 100%; }
+
+#myForm {
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 70px 15%;
+  background: #adb7b3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  transition-duration: .3s; }
+  #myForm label {
+    font-weight: 100; }
+  #myForm .contact {
+    margin-right: -35px;
+    margin-left: -35px; }
+  #myForm input {
+    width: 100%;
+    margin-bottom: 10px !important;
+    height: 45px;
+    padding: 2px 0 0 12px;
+    border: .5px solid black;
+    border-radius: 0; }
+  #myForm select {
+    margin-bottom: 15px !important;
+    border-radius: 0;
+    border: .5px solid black;
+    height: 45px;
+    width: 100%;
+    padding-left: 8px; }
+  #myForm textarea {
+    padding: 5px 0 0 8px;
+    border: .5px solid black;
+    border-radius: 0; }
+  #myForm #submit {
+    width: 115px;
+    font-size: 18px;
+    border: none;
+    padding: 8px;
+    background: red;
+    color: white;
+    height: 50px;
+    margin: 0 auto;
+    display: block; }
+    #myForm #submit:hover {
+      background: #FDCE13;
+      color: black;
+      transition-duration: .3s; }
+    #myForm #submit:not(:hover) {
+      transition-duration: .3s; }
 
 /*-----------------------------------------*/
 /*--------PHOTOGALLERY--------------------*/
@@ -600,7 +686,8 @@ footer {
     float: right;
     margin-right: 5%;
     margin-top: 30px;
-    font-size: 45px !important; }
+    font-size: 45px !important;
+    color: white; }
 
   #myNav {
     display: block; }
@@ -636,7 +723,7 @@ footer {
     top: 0;
     background-color: black;
     /* Black fallback color */
-    background-color: rgba(4, 104, 147, 0.97);
+    background-color: rgba(56, 64, 61, 0.95);
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -672,7 +759,7 @@ footer {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: lightskyblue;
+    color: #FDCE13;
     text-decoration: none; }
 
   /* Position the close button (top right corner) */
@@ -729,10 +816,6 @@ footer {
     font-size: 20px;
     letter-spacing: 2px; }
 
-  .icon {
-    height: 30px;
-    width: 30px; }
-
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover, .dropdown-content li a:focus {
     color: #a2c0d9;
@@ -744,13 +827,17 @@ footer {
     transition: ease-out .2s; }
 
   #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
-    margin-top: 135px; }
+    margin-top: 0; }
 
   #parallax {
     background-attachment: inherit !important; }
 
   .w3-content.w3-section {
-    margin-top: 135px !important; }
+    margin-top: 18px !important; }
+
+  #myForm {
+    padding: 70px 10%;
+    transition-duration: .3s; }
 
   #hours {
     display: none; }
@@ -772,7 +859,8 @@ footer {
     float: right;
     margin-right: 5%;
     margin-top: 30px;
-    font-size: 45px !important; }
+    font-size: 45px !important;
+    color: white; }
 
   #myNav {
     display: block; }
@@ -808,7 +896,7 @@ footer {
     top: 0;
     background-color: black;
     /* Black fallback color */
-    background-color: rgba(4, 104, 147, 0.97);
+    background-color: rgba(56, 64, 61, 0.95);
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -844,7 +932,7 @@ footer {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: lightskyblue;
+    color: #FDCE13;
     text-decoration: none; }
 
   /* Position the close button (top right corner) */
@@ -916,10 +1004,15 @@ footer {
     transition: ease-out .2s; }
 
   #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
-    margin-top: 135px; }
+    margin-top: 0; }
 
   #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 60px;
+    transition-duration: .3s; }
+
+  #main-img #main-img-slogan {
+    font-size: 44px;
+    margin-top: 280px;
     transition-duration: .3s; }
 
   #tour {
@@ -947,9 +1040,7 @@ footer {
         transition-duration: .4s; }
 
   #fall-bowling-league {
-    height: 275px; }
-    #fall-bowling-league .sign-up {
-      margin-top: 50px; }
+    height: 215px; }
 
   #parallax {
     background-attachment: inherit !important;
@@ -961,7 +1052,10 @@ footer {
       margin-top: -10px !important; }
 
   .w3-content.w3-section {
-    margin-top: 135px !important; }
+    margin-top: 18px !important; }
+
+  #myForm {
+    padding: 70px 10%; }
 
   #hours {
     display: none; }
@@ -983,7 +1077,8 @@ footer {
     float: right;
     margin-right: 5%;
     margin-top: 30px;
-    font-size: 45px !important; }
+    font-size: 45px !important;
+    color: white; }
 
   #myNav {
     display: block; }
@@ -1019,7 +1114,7 @@ footer {
     top: 0;
     background-color: black;
     /* Black fallback color */
-    background-color: rgba(4, 104, 147, 0.97);
+    background-color: rgba(56, 64, 61, 0.95);
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -1055,7 +1150,7 @@ footer {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: lightskyblue;
+    color: #FDCE13;
     text-decoration: none; }
 
   /* Position the close button (top right corner) */
@@ -1127,7 +1222,12 @@ footer {
     transition: ease-out .2s; }
 
   #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
-    margin-top: 105px; }
+    margin-top: 0; }
+
+  #main-img #main-img-slogan {
+    margin-top: 280px;
+    font-size: 36px;
+    transition-duration: .3s; }
 
   #tour {
     background: #38403d;
@@ -1154,9 +1254,16 @@ footer {
         transition-duration: .3s; }
 
   #fall-bowling-league {
-    height: 275px; }
-    #fall-bowling-league .sign-up {
-      margin-top: 50px; }
+    height: 300px; }
+    #fall-bowling-league #league-standing, #fall-bowling-league #sign-up {
+      float: none;
+      margin: 0 auto;
+      clear: right;
+      display: block;
+      width: 250px;
+      max-width: 100%; }
+    #fall-bowling-league #sign-up {
+      margin-top: 30px; }
 
   #parallax {
     background-attachment: inherit !important;
@@ -1168,11 +1275,14 @@ footer {
       margin-top: -30px !important; }
 
   .w3-content.w3-section {
-    margin-top: 135px !important; }
+    margin-top: 18px !important; }
 
   #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 54px;
     transition-duration: .3s; }
+
+  #myForm {
+    padding: 70px 10%; }
 
   #hours {
     display: none; }
@@ -1194,7 +1304,8 @@ footer {
     float: right;
     margin-right: 5%;
     margin-top: 30px;
-    font-size: 45px !important; }
+    font-size: 45px !important;
+    color: white; }
 
   #bowling-dropdown-submenu {
     display: none;
@@ -1230,7 +1341,7 @@ footer {
     top: 0;
     background-color: black;
     /* Black fallback color */
-    background-color: rgba(4, 104, 147, 0.97);
+    background-color: rgba(56, 64, 61, 0.95);
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -1266,7 +1377,7 @@ footer {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: lightskyblue;
+    color: #FDCE13;
     text-decoration: none; }
 
   /* Position the close button (top right corner) */
@@ -1338,13 +1449,13 @@ footer {
     transition: ease-out .2s; }
 
   #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
-    margin-top: 105px; }
+    margin-top: 0; }
 
   #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 54px; }
 
   .w3-content.w3-section {
-    margin-top: 105px !important; }
+    margin-top: 18px !important; }
 
   #tour {
     background: #38403d;
@@ -1372,8 +1483,15 @@ footer {
 
   #fall-bowling-league {
     height: 275px; }
-    #fall-bowling-league .sign-up {
-      margin-top: 50px; }
+    #fall-bowling-league #league-standing, #fall-bowling-league #sign-up {
+      float: none;
+      margin: 0 auto;
+      clear: right;
+      display: block;
+      width: 250px;
+      max-width: 100%; }
+    #fall-bowling-league #sign-up {
+      margin-top: 30px; }
 
   #parallax {
     background-attachment: inherit !important;
@@ -1397,7 +1515,8 @@ footer {
     margin-top: 0; }
 
   #logo {
-    width: 180px; }
+    width: 150px;
+    transition-duration: .3s; }
 
   #nav {
     display: none !important; }
@@ -1407,7 +1526,8 @@ footer {
     float: right;
     margin-right: 5%;
     margin-top: 15px;
-    font-size: 45px !important; }
+    font-size: 45px !important;
+    color: white; }
 
   #myNav {
     display: block; }
@@ -1444,7 +1564,7 @@ footer {
     top: 0;
     background-color: black;
     /* Black fallback color */
-    background-color: rgba(4, 104, 147, 0.97);
+    background-color: rgba(56, 64, 61, 0.95);
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -1480,7 +1600,7 @@ footer {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: lightskyblue;
+    color: #FDCE13;
     text-decoration: none; }
 
   /* Position the close button (top right corner) */
@@ -1555,16 +1675,22 @@ footer {
     display: none; }
 
   #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
-    margin-top: 105px; }
+    margin-top: 0; }
 
   .w3-content.w3-section {
-    margin-top: 105px !important; }
+    margin-top: 18px !important; }
+
+  #main-img #main-img-slogan {
+    font-size: 30px;
+    margin-top: 280px;
+    transition-duration: .3s; }
 
   #tour {
     background: #38403d;
     height: 130px;
     padding-top: 40px;
-    margin-top: -17px; }
+    margin-top: -17px;
+    transition-duration: .3s; }
     #tour #tour-btn {
       background: white;
       width: 275px;
@@ -1585,13 +1711,21 @@ footer {
         transition-duration: .3s; }
 
   #fall-bowling-league {
-    height: 275px; }
+    height: 285px; }
+    #fall-bowling-league #league-standing, #fall-bowling-league #sign-up {
+      float: none;
+      margin: 0 auto;
+      clear: right;
+      display: block;
+      width: 235px;
+      max-width: 100%; }
+    #fall-bowling-league #sign-up {
+      margin-top: 30px; }
     #fall-bowling-league #fall-leagues {
-      font-size: 22px; }
+      font-size: 22px;
+      transition-duration: .3s; }
     #fall-bowling-league a {
       font-size: 16px; }
-    #fall-bowling-league .sign-up {
-      margin-top: 50px; }
 
   #parallax {
     background-attachment: inherit !important;
@@ -1602,6 +1736,10 @@ footer {
       margin-top: 50px; }
     #parallax #holiday-specials {
       margin-top: -30px !important; }
+
+  #myForm {
+    padding: 70px 5%;
+    transition-duration: .3s; }
 
   #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 54px;
@@ -1628,7 +1766,7 @@ footer {
     margin-top: 0; }
 
   #logo {
-    width: 180px; }
+    width: 150px; }
 
   #nav {
     display: none !important; }
@@ -1638,7 +1776,8 @@ footer {
     float: right;
     margin-right: 5%;
     margin-top: 15px;
-    font-size: 45px !important; }
+    font-size: 45px !important;
+    color: white; }
 
   #myNav {
     display: block; }
@@ -1675,7 +1814,7 @@ footer {
     top: 0;
     background-color: black;
     /* Black fallback color */
-    background-color: rgba(4, 104, 147, 0.97);
+    background-color: rgba(56, 64, 61, 0.95);
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -1711,7 +1850,7 @@ footer {
 
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: lightskyblue;
+    color: #FDCE13;
     text-decoration: none; }
 
   /* Position the close button (top right corner) */
@@ -1783,24 +1922,30 @@ footer {
     transition: ease-out .2s; }
 
   #open-bowling-title-img, #league-information-title-img, #tournaments-title-img, #company-outing-title-img, #sports-bar-title-img, #banquet-title-img, #bowling-links-title-img, #contact-us-title-img {
-    margin-top: 105px; }
+    margin-top: 0; }
 
   #open-bowling-title-img h1, #league-information-title-img h1, #tournaments-title-img h1, #company-outing-title-img h1, #sports-bar-title-img h1, #banquet-title-img h1, #bowling-links-title-img h1, #contact-us-title-img h1 {
     font-size: 42px;
     transition-duration: .3s; }
 
   .w3-content.w3-section {
-    margin-top: 105px !important; }
+    margin-top: 18px !important; }
 
   .secondary-content h1 {
     font-size: 40px;
     transition-duration: .3s; }
 
+  #main-img #main-img-slogan {
+    font-size: 30px;
+    margin-top: 280px;
+    transition-duration: .3s; }
+
   #tour {
     background: #38403d;
-    height: 100px;
-    padding-top: 30px;
-    margin-top: -17px; }
+    height: 80px;
+    padding-top: 20px;
+    margin-top: -17px;
+    transition-duration: .3s; }
     #tour #tour-btn {
       background: white;
       width: 235px;
@@ -1821,13 +1966,23 @@ footer {
         transition-duration: .3s; }
 
   #fall-bowling-league {
-    height: 290px; }
+    height: 300px; }
+    #fall-bowling-league #league-standing, #fall-bowling-league #sign-up {
+      float: none;
+      margin: 0 auto;
+      clear: right;
+      display: block;
+      width: 235px;
+      max-width: 100%; }
+    #fall-bowling-league #sign-up {
+      margin-top: 30px; }
     #fall-bowling-league #fall-leagues {
       font-size: 22px; }
     #fall-bowling-league a {
       font-size: 16px; }
-    #fall-bowling-league .sign-up {
-      margin-top: 50px; }
+
+  #myForm {
+    padding: 70px 5%; }
 
   #parallax {
     background-attachment: inherit !important;
