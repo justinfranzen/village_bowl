@@ -1,4 +1,6 @@
-<title></title>
+<title>Open Bowling - Village Bowl</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
 <?php
     include 'includes/header.php';
@@ -89,13 +91,25 @@
     
     <h1>ROCK 'N' BOWL</h1>
     
-    <p>Friday &amp; Saturday after 9pm - $14 all you can bowl, includes shoes.</p>
-
-    <p>Friday &amp; Saturday after 11:00pm - $8 all you can bowl, includes shoes.</p>
+        <div class="row hours">
+            
+            <div class="col-lg-6 col-md-6 col-sm-12">
     
-    <p><span class="age"><strong>Summer Hours</strong></span><br>
-        8pm to Midnight<br>
-        Fridays and Saturdays</p>
+                <p>Friday &amp; Saturday after 9pm - $14 all you can bowl, includes shoes.</p>
+
+                <p>Friday &amp; Saturday after 11:00pm - $8 all you can bowl, includes shoes.</p>
+                
+            </div>
+            
+             <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <p><span class="age"><strong>Summer Hours</strong></span><br>
+                    8pm to Midnight<br>
+                    Fridays and Saturdays</p>
+                 
+            </div>
+            
+    </div>
     
     <img src="images/rocknbowl.jpg" alt="Rock 'n' Bowling" id="rocknbowl" />
     
@@ -128,7 +142,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                    <div class="holiday-bowling box">
+                    <div class="holiday-bowling box2">
 
                         <h4>Rock N' Bowl for Kids Special</h4>
                         
@@ -142,7 +156,7 @@
             
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                    <div class="holiday-bowling box">
+                    <div class="holiday-bowling box2">
 
                         <h4>Easter Break Bowling Special</h4>
                         
@@ -174,104 +188,108 @@
     
 </div>
     
-<div class="secondary-content bg-color">
+<div class="bg-color">
     
-<div id="birthday"></div>
+    <div class="secondary-content">
     
-    <h1>BIRTHDAY PARTIES</h1>
-    
-        <div class="row bowling-rates">
+        <div id="birthday"></div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <h1>BIRTHDAY PARTIES</h1>
 
-                    <div class="birthday-party">
+                <div class="row bowling-rates">
 
-                        <h4>Birthday Party Package 1</h4>
-                        
-                        <p class="ppc">$9.99 plus tax per child</p>
-                        
-                        <ul class="list">
-                            <li>1 Game of Bowling</li>
-                            <li>1 Pair Rental Shoes</li>
-                            <li>1 Soft Drink</li>
-                            <li>1 Hot Dog* with Chips and Ice Cream</li>
-                            <li>2 Free Game Cards per Bowler</li>
-                        </ul>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                            <div class="birthday-party">
+
+                                <h4>Birthday Party Package 1</h4>
+
+                                <p class="ppc">$9.99 plus tax per child</p>
+
+                                <ul class="list">
+                                    <li>1 Game of Bowling</li>
+                                    <li>1 Pair Rental Shoes</li>
+                                    <li>1 Soft Drink</li>
+                                    <li>1 Hot Dog* with Chips and Ice Cream</li>
+                                    <li>2 Free Game Cards per Bowler</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                            <div class="birthday-party box2">
+
+                                <h4>Birthday Party Package 2</h4>
+
+                                <p class="ppc">$11.49 plus tax per child</p>
+
+                                <ul class="list">
+                                    <li>2 Games of Bowling</li>
+                                    <li>1 Pair Rental Shoes</li>
+                                    <li>1 Soft Drink</li>
+                                    <li>1 Hot Dog* with Chips and Ice Cream</li>
+                                    <li>2 Free Game Cards per Bowler</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                        <div class="birthday-party box2">
+
+                            <h4>Substitutions &amp; Incentives</h4>
+
+                            <p>*Pizza in place of hot dog, add $1.00 per child. Juice in place of soda, add $ .50 per child. Sorry, No other Substitutions available.</p>
+
+                            <p>&#10148; With a group of 6+ the birthday child receives a Village Bowl T-Shirt.</p>
+
+                            <p>&#10148; With a group of 10+ the birthday child receives a Village Bowl T-Shirt &amp; authentic bowling pin.</p>
+
+
+                        </div>
 
                     </div>
 
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <p>YOU MAY BRING YOUR OWN BIRTHDAY CAKE, BUT PLEASE NO OTHER FOOD OR BEVERAGES. THE MARDI GRAS ROOM WILL BE USED & SHARED WITH OTHER BIRTHDAY PARTIES WHEN AVAILABLE FOR EATING OR GIFT OPENINGS.</p>
 
-                    <div class="birthday-party box">
 
-                        <h4>Birthday Party Package 2</h4>
-                        
-                        <p class="ppc">$11.49 plus tax per child</p>
-                        
-                        <ul class="list">
-                            <li>2 Games of Bowling</li>
-                            <li>1 Pair Rental Shoes</li>
-                            <li>1 Soft Drink</li>
-                            <li>1 Hot Dog* with Chips and Ice Cream</li>
-                            <li>2 Free Game Cards per Bowler</li>
-                        </ul>
-                        
-                    </div>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                    <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-invitation.pdf" target="_blank"><img src="images/birthdayinvitation.png" alt="Birthday Invitation" class="birthday" /></a>
+
+                    <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-invitation.pdf" target="_blank" class="link"><p>Click Here for Birthday Invitation</p></a>
 
                 </div>
-            
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                <div class="birthday-party box">
-                        
-                    <h4>Substitutions &amp; Incentives</h4>
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-                    <p>*Pizza in place of hot dog, add $1.00 per child. Juice in place of soda, add $ .50 per child. Sorry, No other Substitutions available.</p>
+                     <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-flyer.pdf" target="_blank" ><img src="images/birthdayflyer.png" alt="Birthday Flyer" class="birthday" /></a>
 
-                    <p>&#10148; With a group of 6+ the birthday child receives a Village Bowl T-Shirt.</p>
-
-                    <p>&#10148; With a group of 10+ the birthday child receives a Village Bowl T-Shirt &amp; authentic bowling pin.</p>
-
+                    <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-flyer.pdf" target="_blank" class="link"><p>Click Here for Birthday Invitation</p></a>
 
                 </div>
 
             </div>
+    
+    
+            <div id="coupon-section">
 
+                <img src="images/kids-bowl-free.png" alt="Kids Bowl Free Coupon" id="coupon" />
+
+            </div>
+    
         </div>
     
-    <p>YOU MAY BRING YOUR OWN BIRTHDAY CAKE, BUT PLEASE NO OTHER FOOD OR BEVERAGES. THE MARDI GRAS ROOM WILL BE USED & SHARED WITH OTHER BIRTHDAY PARTIES WHEN AVAILABLE FOR EATING OR GIFT OPENINGS.</p>
-    
-    
-    <div class="row">
-        
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-    
-            <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-invitation.pdf" target="_blank"><img src="images/birthdayinvitation.png" alt="Birthday Invitation" class="birthday" /></a>
-
-            <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-invitation.pdf" target="_blank" class="link"><p>Click Here for Birthday Invitation</p></a>
-            
-        </div>
-        
-         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-             <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-flyer.pdf" target="_blank" ><img src="images/birthdayflyer.png" alt="Birthday Flyer" class="birthday" /></a>
-
-            <a href="https://www.villagebowl.com/birthday-bowling-party-information/birthday-flyer.pdf" target="_blank" class="link"><p>Click Here for Birthday Invitation</p></a>
-             
-        </div>
-        
     </div>
-    
-</div>
-    
-    
-<div id="coupon-section">
-    
-    <img src="images/kids-bowl-free.png" alt="Kids Bowl Free Coupon" id="coupon" />
-    
-</div>
     
 </body>
 
